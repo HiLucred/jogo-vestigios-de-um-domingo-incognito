@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Ajustes/GanharVida.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Ajustes/Impulso.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Apretrechos/Teletransporte.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Danos/DanoLava.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Diálogos/PortaAmarela.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Diálogos/PortaVermelha.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/AcionaPassarela.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/AcionaPassarela.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Atirando.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Atirando.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/ChaveSeguindo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/ChaveSeguindo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/ChaveVermelha.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/ChaveVermelha.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Controller.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Controller.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Descobrimento.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Descobrimento.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Dialogo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Dialogo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/HabilitarPulo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/HabilitarPulo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Inimigo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Inimigo.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Pistas.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Pistas.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Ponto.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Ponto.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Pontuacao.cs" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Organizar/Pontuacao.cs" charset="windows-1252" />
+  </component>
+</project>
