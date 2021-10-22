@@ -29,7 +29,7 @@ public class Ponto : MonoBehaviour
             Instantiate(particula, transform.position, quaternion.identity);
             //particulaColetado.Play();
             pontuacao.GanhouPonto(pontoGanho);
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject,0.01f);
         }
     }
 }
