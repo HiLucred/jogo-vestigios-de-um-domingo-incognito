@@ -17,7 +17,20 @@ public class InterativoJogador : MonoBehaviour
     {
         botaoPressionado = false;
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            botaoE.transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            botaoE.transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Interactive"))

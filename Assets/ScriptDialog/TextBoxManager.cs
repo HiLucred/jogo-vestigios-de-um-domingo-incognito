@@ -30,6 +30,9 @@ public class TextBoxManager : MonoBehaviour
 
     public float typeSpeed;
 
+    public Animator animPlayer;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -121,7 +124,9 @@ public class TextBoxManager : MonoBehaviour
 
         if(stopPlayerMovement)
         {
+            animPlayer.SetBool("podeCorrer", false);
             player.podeMover = false;
+            player.podePular = false;
         }
 
         StartCoroutine(TextScroll(textLines[currentLine]));
@@ -133,6 +138,7 @@ public class TextBoxManager : MonoBehaviour
         isActive = false;
 
         player.podeMover = true;
+        player.podePular = true;
     }
 
     public void ReloadScript(TextAsset theText)

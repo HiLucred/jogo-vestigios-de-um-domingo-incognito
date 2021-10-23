@@ -53,10 +53,13 @@ public class Controller : MonoBehaviour
         animacao = GetComponent<Animator>();
     }
 
-    void Update()
-    {
+    void Update() {
+        if (!podePular)
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0,0),ForceMode2D.Impulse);
+            return;
+        }
         Pulo();
-        Debug.Log(podeMover);
     }
 
     private void FixedUpdate()
