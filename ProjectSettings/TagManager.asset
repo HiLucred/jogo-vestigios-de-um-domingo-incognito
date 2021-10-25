@@ -13,6 +13,9 @@ TagManager:
   - Cenario
   - Teletransporte
   - Quebravel
+  - Interactive
+  - Canvas
+  - Parede
   layers:
   - Default
   - TransparentFX

@@ -38,7 +38,7 @@ public class Controller : MonoBehaviour
     //Particulas
     public ParticleSystem petalas;
 
-    private Animator animacao;
+    public Animator animacao;
     //Audio do pulo
     public AudioSource somPulo;
     

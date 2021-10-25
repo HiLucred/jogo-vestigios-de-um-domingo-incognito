@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Bala : MonoBehaviour
@@ -25,7 +26,7 @@ public class Bala : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        //Se colidir com o Jogador
+        //Se colidir com os Inimigos
         if (other.gameObject.CompareTag("Inimigo"))
         {
             other.gameObject.GetComponent<VidaDoInimigo>().Saude(danoDaBala);
@@ -36,6 +37,12 @@ public class Bala : MonoBehaviour
         
         //Se colidir com o Cenario
         if (other.gameObject.CompareTag("Cenario"))
+        {
+            Destroy(gameObject);
+        }
+        
+        //Se colidir com a Parede
+        if (other.gameObject.CompareTag("Parede"))
         {
             Destroy(gameObject);
         }

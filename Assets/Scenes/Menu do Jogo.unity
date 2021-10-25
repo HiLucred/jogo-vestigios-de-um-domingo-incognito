@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 208128465}
   - component: {fileID: 208128464}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: "Cr\xE9ditos"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,10 +395,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Creditos
+  m_text: "Cr\xE9ditos\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715436d95214a564ab2fac389d54150f, type: 2}
-  m_sharedMaterial: {fileID: 8211511025094736101, guid: 715436d95214a564ab2fac389d54150f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47153e90298fec747b313602737b0529, type: 2}
+  m_sharedMaterial: {fileID: -2032560716426166468, guid: 47153e90298fec747b313602737b0529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -422,13 +422,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.16
-  m_fontSizeBase: 15.16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 1212940368}
   - component: {fileID: 1212940371}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Iniciar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 1500719323}
   - component: {fileID: 1500719326}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Sair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1400,8 +1400,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sair
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715436d95214a564ab2fac389d54150f, type: 2}
-  m_sharedMaterial: {fileID: 8211511025094736101, guid: 715436d95214a564ab2fac389d54150f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47153e90298fec747b313602737b0529, type: 2}
+  m_sharedMaterial: {fileID: -2032560716426166468, guid: 47153e90298fec747b313602737b0529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1425,13 +1425,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.16
-  m_fontSizeBase: 15.16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1534,8 +1534,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Iniciar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715436d95214a564ab2fac389d54150f, type: 2}
-  m_sharedMaterial: {fileID: 8211511025094736101, guid: 715436d95214a564ab2fac389d54150f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47153e90298fec747b313602737b0529, type: 2}
+  m_sharedMaterial: {fileID: -2032560716426166468, guid: 47153e90298fec747b313602737b0529, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1559,13 +1559,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.16
-  m_fontSizeBase: 15.16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

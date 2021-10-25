@@ -17,7 +17,7 @@ public class BarraDeVida : MonoBehaviour
     }
     public void setSaude(int saude)
     {
-        slider.value = Mathf.Lerp(slider.value, saude, 5f);
+        slider.value = Mathf.Lerp(slider.value, saude, 1f);
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 }
