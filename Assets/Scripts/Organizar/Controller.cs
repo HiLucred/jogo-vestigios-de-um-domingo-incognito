@@ -126,6 +126,12 @@ public class Controller : MonoBehaviour
             animacao.SetBool("podeCorrer", false);
             animacao.SetBool("podePular", false);
         }
+
+        if (other.gameObject.CompareTag("Interactive"))
+        {
+            animacao.SetBool("podeCorrer", false);
+            animacao.SetBool("podePular", false);
+        }
     }
 
     void ParticulaPetala()

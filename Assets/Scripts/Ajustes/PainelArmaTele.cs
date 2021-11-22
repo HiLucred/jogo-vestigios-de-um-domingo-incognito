@@ -18,7 +18,7 @@ public class PainelArmaTele : MonoBehaviour
     {
         if (painelAberto)
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.X))
             {
                 jogador.podeMover = true;
                 jogador.podePular = true;

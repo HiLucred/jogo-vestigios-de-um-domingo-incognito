@@ -16,6 +16,9 @@ public class IAInimigo : MonoBehaviour
     [Header("Alvo Player")] 
     public GameObject jogador;
     
+    //Som ao detectar o Player
+    public AudioSource audioAtacar;
+    
     //Adicionais
     private float podeAtacar;
     private SpriteRenderer sr;
@@ -69,6 +72,7 @@ public class IAInimigo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            audioAtacar.Play();
             alvo = other.transform;
             sr.flipX = true;
         }

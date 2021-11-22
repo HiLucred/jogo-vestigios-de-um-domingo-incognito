@@ -28,6 +28,8 @@ public class PortaVermelha : MonoBehaviour
 
     [Header("Abrir a Porta")]
     public Color cor;
+
+    private AudioSource audioDestrancando;
     //public BoxCollider2D bc;
 
     
@@ -42,6 +44,7 @@ public class PortaVermelha : MonoBehaviour
         chaveSeguindo = FindObjectOfType<ChaveVermelha>();
         jogador = FindObjectOfType<Controller>();
         atual = GetComponent<SpriteRenderer>();
+        audioDestrancando = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -76,6 +79,7 @@ public class PortaVermelha : MonoBehaviour
             {
                 //dialogo.painelDeDialogo.SetActive(false);
                 jogador.chaveVermelha.alvo = espacoDaChave.transform;
+                audioDestrancando.Play();
                 Destroy(jogador.chaveVermelha.gameObject, 1.7f);
                 abrirDialogo = false;
                 Destroy(gameObject, 1.7f);

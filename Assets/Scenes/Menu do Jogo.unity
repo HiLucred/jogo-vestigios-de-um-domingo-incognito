@@ -224,7 +224,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1895050132}
         m_TargetAssemblyTypeName: scriptMenu, Assembly-CSharp
-        m_MethodName: Sair
+        m_MethodName: Creditos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

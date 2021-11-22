@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tiros e Afins.unity
     guid: ce94e38ca856dd14b83eb4ed69c5310b
+  - enabled: 1
+    path: Assets/Scenes/Equipe.unity
+    guid: 2498960c18312894f90643f82df4d587
   m_configObjects: {}

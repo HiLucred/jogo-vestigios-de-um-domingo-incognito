@@ -7,7 +7,9 @@ public class QuadradoEsmagador : MonoBehaviour
 {
     [Header("Tempo e Velocidade")]
     public float tempoMaximo;
-    public float velocidade; 
+    public float velocidade;
+
+    private AudioSource audioPilar;
     
     private CameraShake camera;
     private Rigidbody2D rb;
@@ -18,6 +20,7 @@ public class QuadradoEsmagador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         camera = FindObjectOfType<CameraShake>();
+        audioPilar = GetComponent<AudioSource>();
         telaTreme = false;
     }
 
@@ -30,6 +33,7 @@ public class QuadradoEsmagador : MonoBehaviour
             tempo = 0;
             if (telaTreme)
             {
+                audioPilar.Play();
                 camera.TremerCamera();
             }
         }
@@ -41,6 +45,7 @@ public class QuadradoEsmagador : MonoBehaviour
         {
             if (other.gameObject.CompareTag("Player"))
             {
+                
                 telaTreme = true;
             }
         }

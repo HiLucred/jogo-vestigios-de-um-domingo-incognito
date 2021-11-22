@@ -10,10 +10,12 @@ public class Impulso2 : MonoBehaviour
     public float forcaDoPulo;
     private Controller jogador;
     private bool colidiu;
+    private AudioSource audioTrampolin;
 
     void Start()
     {
         jogador = FindObjectOfType<Controller>();
+        audioTrampolin = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -23,6 +25,7 @@ public class Impulso2 : MonoBehaviour
         {
             jogador.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * forcaDoPulo * Time.fixedDeltaTime
                 , ForceMode2D.Impulse);
+            audioTrampolin.Play();
         }
     }
 }
