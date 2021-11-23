@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class scriptMenu : MonoBehaviour
 {
-    public string nomeDaCena;
+    public int nomeDaCena;
 
     public void MudarCena()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(nomeDaCena);
     }
     
     public void VoltarMenu()

@@ -18,6 +18,9 @@ public class Inimigo2 : MonoBehaviour
     //Dano que o inimigo da no jogador
     public int dano;
     
+    public float velocidadeAtaque = 1f;
+    private float podeAtacar;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -49,6 +52,20 @@ public class Inimigo2 : MonoBehaviour
             collision.gameObject.GetComponent<Vida>().PiscarJogador();
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 10f);
         
+        }
+    }
+    
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (velocidadeAtaque <= podeAtacar)
+            {
+                other.gameObject.GetComponent<Vida>().Saude(dano);
+                other.gameObject.GetComponent<Vida>().PiscarJogador();
+                podeAtacar = 0;
+            }
+            podeAtacar += Time.deltaTime;
         }
     }
 

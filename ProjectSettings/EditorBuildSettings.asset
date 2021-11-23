@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Equipe.unity
     guid: 2498960c18312894f90643f82df4d587
+  - enabled: 1
+    path: Assets/Scenes/Continua.unity
+    guid: 5736b89c4e6398a48affc3c4f6ac7fe3
+  - enabled: 1
+    path: Assets/Scenes/CREDITOSSSSS.unity
+    guid: 3c80951066fba914c9702c1df9f29a19
   m_configObjects: {}

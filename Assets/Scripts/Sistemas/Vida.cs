@@ -17,6 +17,7 @@ public class Vida : MonoBehaviour
 
     [Header("Efeito Sonoro de Dano")] 
     public AudioSource somDano;
+    public bool danoLava;
 
     [Header("Painel Fim de Jogo")] 
     public GameObject painelFimDeJogo;
@@ -41,7 +42,13 @@ public class Vida : MonoBehaviour
         saude -= dano;
         barra.setSaude(saude);
         percaDeVida.Play();
-        somDano.Play();
+        
+        //Confere se sofreu dano normal ou dano na lava
+        if (!danoLava)
+        {
+            somDano.Play();    
+        }
+        
 
         if(saude >= saudeMaxima)
         {

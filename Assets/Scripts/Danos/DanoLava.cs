@@ -19,10 +19,12 @@ public class DanoLava : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
+            collision.gameObject.GetComponent<Vida>().danoLava = true;
+            somQueimando.Play();
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * forcaDoPulo, ForceMode2D.Impulse);
             collision.gameObject.GetComponent<Vida>().Saude(dano);
-            somQueimando.Play();
             collision.gameObject.GetComponent<Vida>().PiscarJogador();
+            collision.gameObject.GetComponent<Vida>().danoLava = false;
         }
     }
     
